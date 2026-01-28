@@ -1,1 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Al-Amin Khan | Digital Marketer & Training Assistant Manager</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #f0f0f0;
+    background: linear-gradient(135deg, #7209b7, #3a0ca3, #4361ee, #4cc9f0);
+    overflow-x: hidden;
+    position: relative;
+  }
+
+  /* Floating SVG Background */
+  .bg-svg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+    opacity: 0.3;
+  }
+
+  .float {
+    animation: floatAnim 20s ease-in-out infinite;
+  }
+
+  @keyframes floatAnim {
+    0% { transform: translateY(0px) rotate(0deg); }
+    50% { transform: translateY(-60px) rotate(180deg); }
+    100% { transform: translateY(0px) rotate(360deg); }
+  }
+
+  header {
+    background: rgba(0,0,0,0.6);
+    color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  nav a {
+    color: #4cc9f0;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    border-radius: 15px;
+    margin-bottom: 40px;
+  }
+
+  h2 {
+    color: #4cc9f0;
+    margin-bottom: 20px;
+  }
+
+  .skills span {
+    display: inline-block;
+    background: rgba(255,255,255,0.2);
+    color: #ffffff;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 20px;
+  }
+
+  .card {
+    background: rgba(255,255,255,0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.3);
+    margin-bottom: 20px;
+  }
+
+  footer {
+    background: rgba(0,0,0,0.7);
+    color: #4cc9f0;
+    text-align: center;
+    padding: 20px;
+  }
+
+  a.btn {
+    display: inline-block;
+    background: #4cc9f0;
+    color: #3a0ca3;
+    padding: 10px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+
+  a.btn:hover {
+    background: #ffffff;
+    color: #7209b7;
+  }
+
+  img.profile {
+    width: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 3px solid #4cc9f0;
+  }
+</style>
+</head>
+<body>
+
+<!-- Floating SVG Background -->
+<div class="bg-svg">
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Training icons -->
+  <rect x="50" y="100" width="20" height="30" fill="#ffca3a" class="float" /> <!-- book -->
+  <polygon points="150,50 160,80 140,80" fill="#ff6d00" class="float" /> <!-- pen -->
+  <ellipse cx="650" cy="120" rx="20" ry="30" fill="#7209b7" class="float" /> <!-- graduation cap -->
+
+  <!-- Digital Marketing icons -->
+  <circle cx="200" cy="200" r="20" fill="#4361ee" class="float" /> <!-- SEO magnifying glass -->
+  <rect x="300" y="250" width="25" height="25" fill="#4cc9f0" class="float" /> <!-- ads -->
+  <polygon points="450,300 470,340 430,340" fill="#4895ef" class="float" /> <!-- content doc -->
+  <circle cx="600" cy="400" r="15" fill="#3a0ca3" class="float" /> <!-- extra icon -->
+</svg>
+</div>
+
+<header>
+  <h1>Al-Amin Khan</h1>
+  <p>Digital Marketer | SEO Specialist | Assistant Manager (Training)</p>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#digital-marketing">Digital Marketing</a>
+    <a href="#training">Training</a>
+    <a href="#projects">Projects</a>
+    <a href="#case">Case Study</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="home">
+  <h2>Home</h2>
+  <div class="card">
+    <p>I help businesses grow online through SEO, Facebook Ads, and full project management. I also provide individual, industrial, and government training as an Assistant Manager at Babylon Resources Limited.</p>
+    <a class="btn" href="tel:+8801971708689">Hire Me</a>
+  </div>
+</section>
+
+<section id="about">
+  <h2>About Me</h2>
+  <div class="card" style="display:flex; align-items:center;">
+    <p>I'm Al-Amin Khan, a Digital Marketer and Assistant Manager (Training) at Babylon Resources Limited. I manage SEO, Facebook Ads, and complete project execution, and train individuals, industries, and government professionals.</p>
+  </div>
+</section>
+
+<section id="digital-marketing">
+  <h2>Digital Marketing</h2>
+  <div class="card skills">
+    <span>SEO Optimization</span>
+    <span>Keyword Research</span>
+    <span>Facebook Ads</span>
+    <span>Google Ads</span>
+    <span>Content Marketing</span>
+    <span>Google Analytics</span>
+    <span>Project Management</span>
+    <span>ReplyMaster.ai Full Project</span>
+  </div>
+</section>
+
+<section id="training">
+  <h2>Training & Mentorship</h2>
+  <div class="card">
+    <p>I work as an <strong>Assistant Manager (Training)</strong> at <strong>Babylon Resources Limited</strong>. I provide training for individuals, industries, and government projects.</p>
+    <ul>
+      <li>Individual Training</li>
+      <li>Industrial Attachment Training</li>
+      <li>Government Training Projects:</li>
+      <ul>
+        <li>Her Power</li>
+        <li>SRDL Python Project</li>
+        <li>EDGE</li>
+      </ul>
+    </ul>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="card">
+    <h3>Cosmobazaar.com</h3>
+    <p>E-commerce website planning, SEO structure, and digital marketing strategy.</p>
+  </div>
+  <div class="card">
+    <h3>GlowGoodly</h3>
+    <p>Cosmetics brand SEO content, product marketing, and Facebook growth strategy.</p>
+  </div>
+  <div class="card">
+    <h3>ReplyMaster.ai</h3>
+    <p>Full project execution including SEO, Facebook Ads, and complete digital marketing management.</p>
+  </div>
+</section>
+
+<section id="case">
+  <h2>SEO / Marketing Case Study</h2>
+  <div class="card">
+    <p><strong>Problem:</strong> Low website traffic and poor Google ranking.</p>
+    <p><strong>Solution:</strong> Keyword research, on-page SEO, content optimization, and backlink strategy.</p>
+    <p><strong>Result:</strong> 3x organic traffic growth within 3 months.</p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="card">
+    <p>Email: shaon@email.com</p>
+    <p>Phone: <a href="tel:+8801971708689" style="color:#4cc9f0;">01971708689</a></p>
+    <p>Facebook: <a href="https://facebook.com/MohammadShaonAlAmin" style="color:#4cc9f0;">Mohammad Shaon Al Amin</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/Al-AminKhan" style="color:#4cc9f0;">Al-Amin Khan</a></p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Al-Amin Khan. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
 
